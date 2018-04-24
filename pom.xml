@@ -6,7 +6,7 @@
 <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>POC4-TEAM1</groupId>
+  <groupId>POC2</groupId>
   <artifactId>InformationCentre</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
