@@ -2,7 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <properties>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-     
+     <maven.compiler.source>1.6</maven.compiler.source>
+<maven.compiler.target>1.6</maven.compiler.target>
   </properties>
   <modelVersion>4.0.0</modelVersion>
   <groupId>POC4-TEAM1</groupId>
@@ -56,8 +57,6 @@
 	          </execution>
 	        </executions>
 	        <configuration>	
-		<source>1.8</source>
-                <target>1.8</target>
 	        <excludes> 
 		        <exclude>**/ut/*/*Test.java</exclude>  
 		    </excludes>  
