@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <properties>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-     <maven.compiler.source>1.7</maven.compiler.source> 
-     <maven.compiler.destination>1.7</maven.compiler.destination>
+     <maven.compiler.source>1.6</maven.compiler.source> 
+     <maven.compiler.destination>1.6</maven.compiler.destination>
   </properties>
   <modelVersion>4.0.0</modelVersion>
   <groupId>POC4-TEAM1</groupId>
@@ -48,6 +48,10 @@
 	        <groupId>org.apache.maven.plugins</groupId>
 	        <artifactId>maven-failsafe-plugin</artifactId>
 	        <version>2.18.1</version>
+		<configuration>
+                <source>1.6</source>
+                <target>1.6</target>
+            </configuration>
 	        <executions>
 	          <execution>
 	            <goals>
