@@ -10,7 +10,7 @@
   <artifactId>InformationCentre</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
-  <name>InformationCentre</name>
+  <name>POC2_InformationCentre</name>
   <url>http://maven.apache.org</url> 
   <distributionManagement>
       <snapshotRepository>
